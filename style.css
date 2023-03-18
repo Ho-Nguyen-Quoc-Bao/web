@@ -1,0 +1,114 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f1f1f1;
+	padding-left: 500px;
+	padding-right: 500px;
+}
+
+.container {
+	width: 500px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+form {
+	display: none;
+}
+
+form h2 {
+	margin: 0;
+	margin-bottom: 20px;
+	font-size: 24px;
+	color: #333;
+}
+
+form label {
+	display: block;
+	margin-bottom: 8px;
+	color: #666;
+}
+
+form input[type="text"],
+form input[type="password"] {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	margin-bottom: 20px;
+}
+
+.remember-me {
+	margin-bottom: 20px;
+}
+
+.remember-me label {
+	font-size: 14px;
+	color: #666;
+}
+
+.remember-me input[type="checkbox"] {
+	margin-right: 10px;
+}
+
+form input[type="submit"] {
+	background-color: #4CAF50;
+	color: #fff;
+	border: none
+}
+
+/* Định dạng nút đăng nhập và đăng ký */
+.my-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+.my-button {
+	background-color: red;
+	animation: changeColor 6s infinite;
+	transition: transform 0.3s ease;
+}
+
+@keyframes changeColor {
+0% {
+	background-color: red;	
+}
+14.28% {
+	background-color: orange;
+}
+28.56% {
+	background-color: yellow;
+}
+42.84% {
+	background-color: green;
+}
+57.12% {
+	background-color: blue;
+}
+71.40% {
+	background-color: indigo;
+}
+85.68% {
+	background-color: violet;
+}
+100% {
+	background-color: red;
+}
+}
+  
+	  
+  
+  /* Định dạng hover */
+  .my-button:hover {
+	transform: scale(1.2);
+  }
+  
